@@ -5,12 +5,12 @@
 ### 2. Results
 	Overall, for these 12 stocks, 2017 saw a better performance compared with 2018. Image 1 and image 2 shows the table of results through the VBA analysis. In image 1 it was observed that all but 1 stock had positive returns except TERP. 
 
-	![Image1 2017 Stocks Table](C:\Users\Dr.Dogface\Documents\Github\stock-analysis\VBA_Challenge_2017.PNG) 
-	![Image2 2018 Stocks Table](C:\Users\Dr.Dogface\Documents\Github\stock-analysis\VBA_Challenge_2018.PNG) 
+	![Image1 2017 Stocks Table](cchoi22/stock-analysis/VBA_Challenge_2017.PNG) 
+	![Image2 2018 Stocks Table](cchoi22/stock-analysis/VBA_Challenge_2018.PNG) 
 
 While in image 2 all but 2 stocks had negative returns. Only ENPH and RUN had positive returns at the end of 2018. To achieve this analysis a VBA module was used to iterate through the data sets to produce a summarized version of the data. Firstly an input function was implemented into the code to allow the user to select between 2017 and 2018 data sets. While a for loop was used to iterate through the data sets and the calculations were bound by conditional statements to product the total volume for each ticker symbol. The return was calculated using the end price divided by the starting price minus 1. This provided the percentage of return from each symbol. An example of the code can by found below. 
 	
-    ![Image3 Example Refactored VBA Code](C:\Users\Dr.Dogface\Documents\Github\stock-analysis\Code_example.PNG)
+    ![Image3 Example Refactored VBA Code](cchoi22/stock-analysis/Code_example.PNG)
 
 Image 3 shows that an extra loop was used to initialize tickerVolumes into an array. This increased the amount of time needed to run the code. The array tickerVolumes would not need to be created before the loop unless the place in memory needed to be secured before calculations began on that variable.  
 
